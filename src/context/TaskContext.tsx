@@ -23,25 +23,25 @@ export function TaskProvider({
     title: 'Study Math',
     day: 'mon',
     time: '09:00',
-    color: 'bg-red-200'
+    color: 'bg-gradient-to-r from-pink-600 to-purple-600'
   }, {
     id: '2',
     title: 'Read Manga',
     day: 'tue',
     time: '14:00',
-    color: 'bg-blue-200'
+    color: 'bg-gradient-to-r from-purple-600 to-pink-600'
   }, {
     id: '3',
     title: 'Practice Drawing',
     day: 'wed',
     time: '16:00',
-    color: 'bg-green-200'
+    color: 'bg-gradient-to-r from-cyan-600 to-blue-600'
   }, {
     id: '4',
     title: 'Watch Anime',
     day: 'fri',
     time: '19:00',
-    color: 'bg-purple-200'
+    color: 'bg-gradient-to-r from-pink-600 to-cyan-600'
   }]);
   const addTask = (task: Task) => {
     setTasks([...tasks, task]);
